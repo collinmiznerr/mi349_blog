@@ -13,7 +13,8 @@ background: #fff
 
 h1{
     font-size: 3em;
-    margin: 0;
+    margin: 1px;
+    padding: 2px
 }
 
 p{
@@ -35,11 +36,11 @@ article {
 .sticky, .blog-post {
     background: #2f4f2f;
     postion: .sticky;
-    top: 0;
+    top: 5;
 }
 
 body {
-    color: #a9a9a9;
+    color: #FFFAF0;
 }
 
 header {
