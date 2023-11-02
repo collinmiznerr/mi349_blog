@@ -38,22 +38,4 @@ article {
     top: 0;
 }
 
-body {
-    color: #a9a9a9;
-}
-
-header {
-    background: #222;
-}
-
-section {
-    background: #ccc;
-    display: flex;
-}
-
-article {
-    background: #999;
-    padding 20px;
-    margin: 20px;
-}
 
