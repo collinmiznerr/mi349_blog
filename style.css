@@ -46,10 +46,7 @@ header {
     background: #222;
 }
 
-section {
-    background: #ccc;
-    display: flex;
-}
+
 
 article {
     background: #999;
