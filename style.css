@@ -47,11 +47,13 @@ header {
     background: #222;
 }
 
-
-
 article {
     background: #2f4f2f;
     padding 20px;
     margin: 20px;
 }
 
+.blog-post3 {
+  background: #ccc;
+  margin: 0.5px;
+}
