@@ -38,3 +38,10 @@ article {
     top: 0;
 }
 
+.images/TheDoors.jpg {
+    backgorund: #8fbc8f
+    height: 50px;
+    width: 50px;
+    float: :right;
+    margin-right: 11px;
+}
