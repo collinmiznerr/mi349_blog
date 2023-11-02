@@ -36,8 +36,9 @@ article {
     background: #2f4f2f
 }
 
-.sticky {
-    background: blue
-    position: sticky;
+.sticky, .blog-post {
+    background: blue;
+    postion: .sticky;
     top: 0;
 }
+
