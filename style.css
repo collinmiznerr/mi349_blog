@@ -38,10 +38,22 @@ article {
     top: 0;
 }
 
-.img-container {
-    backgorund: #8fbc8f
-    height: 50px;
-    width: 50px;
-    float: :right;
-    margin-right: 11px;
+body {
+    color: aqua;
 }
+
+header {
+    background: #222;
+}
+
+section {
+    background: #ccc;
+    display: flex;
+}
+
+article {
+    background: #999;
+    padding 20px;
+    margin: 20px;
+}
+
