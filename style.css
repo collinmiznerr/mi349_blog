@@ -22,11 +22,11 @@ p{
 }
 
 #blog{
-    border-top: 4px dotted #ccc;
+    border-top: 4px dotted #a52a2a;
 }
 
 .blog-post{
-    border-bottom: 4px dotted #ccc;
+    border-bottom: 4px dotted #a52a2a;
 }
 
 article {
