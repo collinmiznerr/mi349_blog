@@ -26,7 +26,7 @@ p {
 }
 
 .blog-post {
-    border-bottom: 4px dotted #a52a2a;
+  flex: 3;
 }
 
 article {
