@@ -30,9 +30,6 @@ p {
     border-bottom: 2px solid #000;
 }
 
-article:nth-of-type(2) {
-    flex: 1;
-}
 
 .sticky, .head-container {
     background: #2f4f2f;
