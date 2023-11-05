@@ -38,7 +38,10 @@ article {
     postion: .sticky;
     top: 5;
 }
-
+header {
+    background: #222;
+    width: 100%;
+}
 .header-container {
     position: sticky;
     top: 0;
@@ -51,10 +54,7 @@ body {
 section { 
 display: flex;}
 
-header {
-    background: #222;
-    width: 100%;
-}
+
 
 article {
     background: #2f4f2f;
