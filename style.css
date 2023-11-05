@@ -7,7 +7,7 @@ body {
     margin: 10px;
     padding: 10px;
     color: #242424;
-    border-top: 10px solid #242424; /* 'solid' instead of 'soild' */
+    border-top: 10px solid #242424; 
     background: #778899;
 }
 
@@ -30,7 +30,7 @@ p {
 }
 
 article {
-    border-bottom: 5px solid #000; /* 'solid' instead of 'soild' */
+    border-bottom: 2px solid #000; 
 }
 
 article:nth-of-type(1) {
@@ -41,7 +41,6 @@ article:nth-of-type(2) {
     flex: 1;
 }
 
-.sticky,
 .sticky, blog-post {
     background: #2f4f2f;
     position: sticky; /* 'position' instead of 'postion' */
@@ -63,7 +62,7 @@ body {
 
 article {
     background: #2f4f2f;
-    padding: 20px; /* Added the missing colon */
+    padding: 20px; 
     margin: 20px;
 }
 
