@@ -5,11 +5,10 @@ html{
 body {
 font-family: Georgia, Times, 'Times New Roman', serif;
 margin: 10px;
-padding: 20px;
+padding: 10px;
 color: #242424;
 border-top: 10px soild #242424;
 background: #778899
-margin:fixed;
 }
 
 h1{
