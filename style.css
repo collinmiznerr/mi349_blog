@@ -1,46 +1,57 @@
-html{
-    background: #a52a2a
+html {
+    background: #a52a2a;
 }
 
 body {
-font-family: Georgia, Times, 'Times New Roman', serif;
-margin: 10px;
-padding: 10px;
-color: #242424;
-border-top: 10px soild #242424;
-background: #778899
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin: 10px;
+    padding: 10px;
+    color: #242424;
+    border-top: 10px solid #242424; /* 'solid' instead of 'soild' */
+    background: #778899;
 }
 
-h1{
+h1 {
     font-size: 3em;
     margin: 1px;
-    padding: 2px
+    padding: 2px;
 }
 
-p{
+p {
     line-height: 2.1em;
 }
 
-#blog{
+#blog {
     border-top: 4px dotted #a52a2a;
 }
 
-.blog-post{
+.blog-post {
     border-bottom: 4px dotted #a52a2a;
 }
 
 article {
-    border-bottom: 5px soild #000;
+    border-bottom: 5px solid #000; /* 'solid' instead of 'soild' */
 }
 
-.sticky, .blog-post {
+article:nth-of-type(1) {
+    flex: 1;
+}
+
+article:nth-of-type(2) {
+    flex: 1;
+}
+
+.sticky,
+.sticky, blog-post {
     background: #2f4f2f;
-    postion: .sticky;
+    position: sticky; /* 'position' instead of 'postion' */
     top: 5;
 }
+
 header {
     background: #222;
 }
+
 .header-container {
     position: sticky;
     top: 0;
@@ -50,15 +61,13 @@ body {
     color: #FFFAF0;
 }
 
-
-
 article {
     background: #2f4f2f;
-    padding 20px;
+    padding: 20px; /* Added the missing colon */
     margin: 20px;
 }
 
 .blog-post3 {
-  background: #ccc;
-  margin: 0.5px;
+    background: #ccc;
+    margin: 0.5px;
 }
