@@ -48,6 +48,9 @@ body {
     color: #FFFAF0;
 }
 
+section { 
+display: flex;}
+
 header {
     background: #222;
 }
