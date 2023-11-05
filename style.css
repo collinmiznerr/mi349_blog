@@ -40,7 +40,7 @@ article {
 }
 header {
     background: #222;
-    width: 100%;
+    width: 40px;
 }
 .header-container {
     position: sticky;
