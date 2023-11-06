@@ -4,50 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>content</title>
+    <title>Contact</title>
 </head>
 <body>
     <div class="header-container">
-    <header>
-        <h1>Contact Information</h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-</div>
-</header>
-<article class="blog-post">
-     <form>
-    <p> 
-            <label>
-            Name:
-            <input type="text">
-        </label>
-    </p>
-    <p>
-        <label>
-            Email:
-            <input type="text">
-        </label>
-    </p>
-    <p>
-        <label for="interview">Reason for Contact:</label>
-
-            <select name="Reasons for Contact">
-            <option value="Reasons for Contact">saying hi</option> 
-            <option value="Reasons for Contact">looking for a contractor</option> 
-            <option value="Reasons for Contact">interested in an interview</option> 
-    </p> 
-    <p>
-        
-        <textarea id="interview" name="interview" rows="5" cols="33">
-       open comments!
-</textarea>
-<button>Submit</button>
-</p>
-</form>
+        <header>
+            <h1>Contact Information</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <article class="blog-post">
+        <form>
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+            </p>
+            <p>
+                <label for="reason">Reason for Contact:</label>
+                <select id="reason" name="reason">
+                    <option value="saying hi">Saying Hi</option>
+                    <option value="looking for a contractor">Looking for a Contractor</option>
+                    <option value="interested in an interview">Interested in an Interview</option>
+                </select>
+            </p>
+            <p>
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="5" cols="33">Open comments!</textarea>
+            </p>
+            <button type="submit">Submit</button>
+        </form>
+    </article>
 </body>
 </html>
