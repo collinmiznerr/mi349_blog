@@ -64,9 +64,9 @@ article {
 }
 
 .img-container {
-    background: green;
+    background: #FFF;
     height: 50px;
     width: 50px;
-    float: right;
-    margin-left: 10px;
+    float: left;
+    margin-right: 10px;
 }
