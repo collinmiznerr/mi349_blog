@@ -62,3 +62,11 @@ article {
     display: flex;
     justify-content: space-between;
 }
+
+.img-container {
+    background: green;
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin-left: 10px;
+}
